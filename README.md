@@ -7,7 +7,7 @@ Skip-connections in each dilated causal convolution stack similar to those found
 
 Rolling origin evaluation is implemented to de-bias out-of-sample forecast errors and hyperparameter optimization is performed using HyperOpt.
 
-Borovykn et al. 2018
+Borovykh et al. 2018
 https://arxiv.org/pdf/1703.04691.pdf
 
 Bergstra et al. 2011
