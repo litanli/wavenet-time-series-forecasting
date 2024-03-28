@@ -1,5 +1,5 @@
 # wavenet-time-series-forecasting
-Borovykn et al. adapted DeepMind's WaveNet for time series forecasting, achieving superb results on many time series tasks and providing many more architectural details than the original paper. 
+Borovykn et al. adapted DeepMind's WaveNet for time series forecasting, achieving superb results on various time series tasks and providing many more architectural details than the original paper. 
 
 This is my implementation of their model in Pytorch, built inside a custom model API. The network captures autocorrelations and correlations with related time series using 1-dimensional dilated causal convolutions, which allows the model to see significantly longer lags without blowing up in its number of parameters. 
 
